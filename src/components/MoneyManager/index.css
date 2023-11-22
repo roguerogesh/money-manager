@@ -1,0 +1,117 @@
+/* Write your CSS here */
+.money-manager-bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  width: 100%;
+  background-size: cover;
+  height: 30vh;
+  padding: 50px;
+}
+
+.profile-name {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.welcome-msg {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+.span {
+  color: #0b69ff;
+}
+
+.add-transaction-container {
+  border: 2px solid #cbd5e1;
+  border-radius: 15px;
+  padding: 50px;
+  width: 40%;
+  margin-top: 50px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-text {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.add-transaction-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.input-bar {
+  height: 40px;
+  border: 2px solid #d7dfe9;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  border: 0px;
+  border-radius: 5px;
+  padding: 15px;
+  width: 80px;
+  outline: none;
+  cursor: pointer;
+}
+
+.history-container {
+  border: 2px solid #cbd5e1;
+  border-radius: 15px;
+  padding: 50px;
+  width: 50%;
+  margin-top: 50px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.history-table {
+  border: 2px solid #cbd5e1;
+  border-radius: 1px;
+}
+
+.table-header {
+  display: flex;
+  list-style-type: none;
+}
+
+.table-header-cell {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 100px;
+}
